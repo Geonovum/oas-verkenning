@@ -170,7 +170,9 @@
       "inputValidation": {
         "errors": [
           "Cannot fetch"
-        ]
+        ],
+        "warnings": [],
+        "notices": []
       },
       "createdAt": "2019-02-28T12:54:51+00:00",
       "id": "a842cc89-f1de-4475-a59c-857487ebb856",
