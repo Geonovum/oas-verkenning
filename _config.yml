@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: OpenAPI 3 (OASv3) onderzoek
+title: OpenAPI 3 (OASv3) verkenning
 email: dimitri.vanhees@kadaster.nl
 description: >- # this means to ignore newlines until "baseurl:"
   Dit is een levend document dat de status van de adoptie van OASv3 voor overheids API's weergeeft.
@@ -25,6 +25,8 @@ github_username:  dvh
 # Build settings
 markdown: kramdown
 theme: minima
+
+plugins: [jekyll-octicons]
 
   # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
