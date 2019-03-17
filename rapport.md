@@ -10,10 +10,9 @@ title: Rapport
 {% endfor %}
 {% assign organisations = organisations | split: "_|_" | uniq %}
 
-## Statistieken per API
+Deze pagina bevat de rapportage van alle ingediende API Specificaties. Dit rapport is een 'levend document' en wordt automatisch bijgewerkt als er een nieuwe API Specificatie ter analyse wordt aangeboden via de [Analyse API](docs.html). Tot nu toe zijn de onderstaande **{{ totalCount }}** API's geanalyseerd, van de volgende **{{ organisations.size }}** verschillende organisatie's: {{ organisations | sort | join: ", " }}.
 
-Tot nu toe zijn de onderstaande **{{ totalCount }}** API's geanalyseerd, van de volgende **{{ organisations.size }}** verschillende organisatie's: 
-{{ organisations | sort | join: ", " }}.
+## Statistieken per API
 
 <table>
   <thead>

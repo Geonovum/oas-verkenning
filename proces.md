@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Uitleg
+title: Proces
 ---
 
 ## Analyse Tool
