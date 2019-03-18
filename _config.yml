@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: OpenAPI 3 (OASv3) verkenning
+title: OpenAPI verkenning
 email: dimitri.vanhees@kadaster.nl
 description: >- # this means to ignore newlines until "baseurl:"
-  Dit is een levend document dat de status van de adoptie van OASv3 voor overheids API's weergeeft.
+  Dit is een levend document dat de status van de adoptie van OASv3 voor overheid API's weergeeft.
 baseurl: "/oas-verkenning" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: dvh
-github_username:  dvh
+twitter_username: geonovum
+github_username:  geonovum
 
 # Build settings
 markdown: kramdown
