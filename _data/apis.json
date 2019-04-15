@@ -1,217 +1,187 @@
-[
-    {
-      "descriptionUrl": "https://developers.kvk.nl/resources/swagger.SPTSTP.incl-apikey.json",
-      "descriptionFormat": "swagger_2",
-      "inputValidation": {
-        "notices": [
-          "One or more elements in the API specification has a missing description field."
-        ],
-        "errors": [],
-        "warnings": [
-          "The API version string, <em><code>v1</code></em>, does not have a valid format."
-        ]
-      },
-      "createdAt": "2019-02-28T12:54:02+00:00",
-      "id": "44736bbe-b5e4-47cc-b698-eed59a687aac",
-      "organisation": "KVK",
-      "title": "Handelsregister API",
-      "_links": {
-        "self": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/44736bbe-b5e4-47cc-b698-eed59a687aac"
-        },
-        "openapiYaml": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/44736bbe-b5e4-47cc-b698-eed59a687aac/openapi.yaml"
-        },
-        "openapiJson": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/44736bbe-b5e4-47cc-b698-eed59a687aac/openapi.json"
-        }
-      }
-    },
-    {
-      "descriptionUrl": "https://rawgit.com/PDOK/open-api-specs/master/bag/oas.v1.yaml",
-      "descriptionFormat": "openapi_3",
-      "inputValidation": {
-        "notices": [
-          "One or more elements in the API specification has a missing description field."
-        ],
-        "errors": [],
-        "warnings": [
-          "Model <i><code>geldigVoorkomen</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>geldigVoorkomen</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Contains</code></i> contains invalid example value for field <i><code>coordinates</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens7</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens7</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens8</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens8</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens9</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens9</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens10</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens10</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens11</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens11</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens12</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens12</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens13</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.",
-          "Model <i><code>Voorkomens13</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.",
-          "Endpoint name <i><code>Geografisch zoeken op één of meer instanties van een pand</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Alle voorkomens van een instantie van een pand opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Zoeken op één of meer instanties van een ligplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Geografisch zoeken op één of meer instanties van een ligplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Alle voorkomens van een instantie van een ligplaats opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Zoeken op één of meer instanties van een standplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Geografisch zoeken op één of meer instanties van een standplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Alle voorkomens van een instantie van een standplaats opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Zoeken op één of meer instanties van een verblijfsobject</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Geografisch zoeken op één of meer instanties van een verblijfsobject</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Een enkele instantie van een verblijfsobject opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Alle voorkomens van een instantie van een verblijfsobject opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Zoeken op één of meer instanties van een openbare ruimte</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Een enkele instantie van een openbare ruimte opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Alle voorkomens van een instantie van een openbare ruimte opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Zoeken op één of meer instanties van een nummeraanduiding</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Een enkele instantie van een nummeraanduiding opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Alle voorkomens van een instantie van een nummeraanduiding opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Zoeken op één of meer instanties van een woonplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Geografisch zoeken op één of meer instanties van een woonplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.",
-          "Endpoint name <i><code>Alle voorkomens van een instantie van een woonplaats opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation."
-        ]
-      },
-      "createdAt": "2019-02-28T12:55:05+00:00",
-      "id": "064bcfb2-fe3d-4e6c-b16c-c9dfd54d51d1",
-      "organisation": "Kadaster",
-      "title": "BAG API",
-      "_links": {
-        "self": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/064bcfb2-fe3d-4e6c-b16c-c9dfd54d51d1"
-        },
-        "openapiYaml": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/064bcfb2-fe3d-4e6c-b16c-c9dfd54d51d1/openapi.yaml"
-        },
-        "openapiJson": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/064bcfb2-fe3d-4e6c-b16c-c9dfd54d51d1/openapi.json"
-        }
-      }
-    },
-    {
-      "descriptionUrl": "https://opendata.ondernemersplein.nl/swagger/v1/swagger.json",
-      "descriptionFormat": "swagger_2",
-      "inputValidation": {
-        "notices": [
-          "One or more elements in the API specification has a missing description field."
-        ],
-        "errors": [],
-        "warnings": [
-          "The API version string, <em><code>v1</code></em>, does not have a valid format."
-        ]
-      },
-      "createdAt": "2019-02-28T12:55:24+00:00",
-      "id": "22306dbd-877d-4023-8e93-6b18589ff729",
-      "organisation": "KVK",
-      "title": "Ondernemersplein API",
-      "_links": {
-        "self": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/22306dbd-877d-4023-8e93-6b18589ff729"
-        },
-        "openapiYaml": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/22306dbd-877d-4023-8e93-6b18589ff729/openapi.yaml"
-        },
-        "openapiJson": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/22306dbd-877d-4023-8e93-6b18589ff729/openapi.json"
-        }
-      }
-    },
-    {
-      "descriptionUrl": "https://mstpublicapi.docs.apiary.io/api-description-document",
-      "descriptionFormat": "api_blueprint",
-      "inputValidation": {
-        "notices": [
-          "One or more elements in the API specification has a missing description field."
-        ],
-        "errors": [
-          "Endpoint <i><code>Request Authorisations</code></i> has a parameter named <i><code>sort</code></i>, which is of an undefined type <i><code>string optional</code></i>.",
-          "Endpoint <i><code>Request Authorisations</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>locale</code></i>.",
-          "Endpoint <i><code>Request Authorisation</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>locale</code></i>.",
-          "Endpoint <i><code>Request Authorisation Biocide</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>locale</code></i>.",
-          "Endpoint <i><code>Request Authorisation PPP</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>locale</code></i>.",
-          "Endpoint <i><code>Request Authorisation Adjuvant</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>locale</code></i>.",
-          "Endpoint <i><code>Request Substances</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.",
-          "Endpoint <i><code>Request Procutcodes voor Biocides</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.",
-          "Endpoint <i><code>Request Targetorganisms voor Biocides</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.",
-          "Endpoint <i><code>Request Targetorganisms voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.",
-          "Endpoint <i><code>Request Targetorganisms lists voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.",
-          "Endpoint <i><code>Request Targetcrops voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.",
-          "Endpoint <i><code>Request Targetcrops lists voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.",
-          "Endpoint <i><code>Request Targetlocations voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.",
-          "Endpoint <i><code>Request Outcometypes voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.",
-          "Endpoint <i><code>Request Application Methods voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>."
-        ],
-        "warnings": [
-          "Model <i><code>Document</code></i> has an an attribute called <i><code>document</code></i>. Some languages do not allow member names to be the same name as their enclosing type. The accessor or variable names maybe changed to address this problem",
-          "Model <i><code>Substance</code></i> has an an attribute called <i><code>substance</code></i>. Some languages do not allow member names to be the same name as their enclosing type. The accessor or variable names maybe changed to address this problem",
-          "Model <i><code>Uses</code></i> has an an attribute called <i><code>uses</code></i>. Some languages do not allow member names to be the same name as their enclosing type. The accessor or variable names maybe changed to address this problem",
-          "Endpoint <i><code>Request masterdata last modified</code></i> contains invalid example value specifed for response of type <i><code>Dynamic</code></i>. Ignoring this example."
-        ]
-      },
-      "createdAt": "2019-02-28T12:53:36+00:00",
-      "id": "2f4aaf6c-9384-43f8-8960-30c5d758a51d",
-      "organisation": "CTGB",
-      "title": "MST Public API",
-      "_links": {
-        "self": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/2f4aaf6c-9384-43f8-8960-30c5d758a51d"
-        },
-        "openapiYaml": null,
-        "openapiJson": null
-      }
-    },
-    {
-      "descriptionUrl": "https://raw.githubusercontent.com/open-education-api/specification/v3/spec.yaml",
-      "descriptionFormat": "openapi_3",
-      "inputValidation": {
-        "errors": [
-          "Cannot fetch"
-        ],
-        "warnings": [],
-        "notices": []
-      },
-      "createdAt": "2019-02-28T12:54:51+00:00",
-      "id": "a842cc89-f1de-4475-a59c-857487ebb856",
-      "organisation": "Surfnet",
-      "title": "Open Onderwijs API",
-      "_links": {
-        "self": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/a842cc89-f1de-4475-a59c-857487ebb856"
-        },
-        "openapiYaml": null,
-        "openapiJson": null
-      }
-    },
-    {
-      "descriptionUrl": "https://connect.aerius.nl/api/schema/4/connect.yaml",
-      "descriptionFormat": "swagger_2",
-      "inputValidation": {
-        "notices": [
-          "One or more elements in the API specification has a missing description field."
-        ],
-        "errors": [],
-        "warnings": [
-          "The field <i><code>non-existent</code></i> of custom type <i><code>ConvertResponse</code></i> already exists in the base type <i><code>ValidateResponse</code></i>. Re-declaring fields is not allowed."
-        ]
-      },
-      "createdAt": "2019-02-28T12:55:46+00:00",
-      "id": "61846402-a301-458d-9e9f-88af401e3b87",
-      "organisation": "RIVM",
-      "title": "Aerius API",
-      "_links": {
-        "self": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/61846402-a301-458d-9e9f-88af401e3b87"
-        },
-        "openapiYaml": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/61846402-a301-458d-9e9f-88af401e3b87/openapi.yaml"
-        },
-        "openapiJson": {
-          "href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/61846402-a301-458d-9e9f-88af401e3b87/openapi.json"
-        }
-      }
-    }
-]
+[{
+	"descriptionUrl": "http://ref.tst.vng.cloud/zrc/api/v1/schema/openapi.json?v=3",
+	"descriptionFormat": "openapi_3",
+	"inputValidation": {
+		"errors": [{}]
+	},
+	"createdAt": "2019-03-29T10:58:45+00:00",
+	"id": "f239675a-df69-45f3-b7e6-b8050e323abc",
+	"organisation": "VNG Realisatie",
+	"title": "Zaak Registratie Component (ZRC), OAS 3 versie",
+	"_links": {
+		"self": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/f239675a-df69-45f3-b7e6-b8050e323abc"
+		},
+		"openapiYaml": null,
+		"openapiJson": null
+	}
+}, {
+	"descriptionUrl": "https://developers.kvk.nl/resources/swagger.SPTSTP.incl-apikey.json",
+	"descriptionFormat": "swagger_2",
+	"inputValidation": {
+		"notices": ["One or more elements in the API specification has a missing description field."],
+		"errors": [],
+		"warnings": ["The API version string, <em><code>v1</code></em>, does not have a valid format."]
+	},
+	"createdAt": "2019-02-28T12:54:02+00:00",
+	"id": "44736bbe-b5e4-47cc-b698-eed59a687aac",
+	"organisation": "KVK",
+	"title": "Handelsregister API",
+	"_links": {
+		"self": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/44736bbe-b5e4-47cc-b698-eed59a687aac"
+		},
+		"openapiYaml": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/44736bbe-b5e4-47cc-b698-eed59a687aac/openapi.yaml"
+		},
+		"openapiJson": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/44736bbe-b5e4-47cc-b698-eed59a687aac/openapi.json"
+		}
+	}
+}, {
+	"descriptionUrl": "http://ref.tst.vng.cloud/zrc/api/v1/schema/openapi.json?v=3",
+	"descriptionFormat": "openapi_3",
+	"inputValidation": {
+		"errors": [{
+			"Message": "The request is invalid.",
+			"ModelState": {
+				"Exception Error": ["The given API description does not appear to be compatible with Swagger v1.x (JSON) format -> Unable to parse the specified JSON/YAML: Unable to resolve reference: <i><code>Map[string,Object]</code></i>. Please ensure the referenced component exists at the path specified. See https://docs.apimatic.io/api-transformer/transformer-faqs/#troubleshooting for more details about this error."]
+			}
+		}]
+	},
+	"createdAt": "2019-03-29T11:08:28+00:00",
+	"id": "2f5977aa-dc35-4afe-936d-fc1e90886e1f",
+	"organisation": "VNG Realisatie",
+	"title": "Zaak Registratie Component (ZRC), OAS 3 versie",
+	"_links": {
+		"self": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/2f5977aa-dc35-4afe-936d-fc1e90886e1f"
+		},
+		"openapiYaml": null,
+		"openapiJson": null
+	}
+}, {
+	"descriptionUrl": "https://rawgit.com/PDOK/open-api-specs/master/bag/oas.v1.yaml",
+	"descriptionFormat": "openapi_3",
+	"inputValidation": {
+		"notices": ["One or more elements in the API specification has a missing description field."],
+		"errors": [],
+		"warnings": ["Model <i><code>geldigVoorkomen</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.", "Model <i><code>geldigVoorkomen</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Contains</code></i> contains invalid example value for field <i><code>coordinates</code></i>. Ignoring this example.", "Model <i><code>Voorkomens7</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens7</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens8</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens8</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens9</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens9</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens10</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens10</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens11</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens11</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens12</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens12</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens13</code></i> contains invalid example value for field <i><code>beginGeldigheid</code></i>. Ignoring this example.", "Model <i><code>Voorkomens13</code></i> contains invalid example value for field <i><code>eindGeldigheid</code></i>. Ignoring this example.", "Endpoint name <i><code>Geografisch zoeken op één of meer instanties van een pand</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Alle voorkomens van een instantie van een pand opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Zoeken op één of meer instanties van een ligplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Geografisch zoeken op één of meer instanties van een ligplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Alle voorkomens van een instantie van een ligplaats opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Zoeken op één of meer instanties van een standplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Geografisch zoeken op één of meer instanties van een standplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Alle voorkomens van een instantie van een standplaats opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Zoeken op één of meer instanties van een verblijfsobject</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Geografisch zoeken op één of meer instanties van een verblijfsobject</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Een enkele instantie van een verblijfsobject opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Alle voorkomens van een instantie van een verblijfsobject opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Zoeken op één of meer instanties van een openbare ruimte</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Een enkele instantie van een openbare ruimte opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Alle voorkomens van een instantie van een openbare ruimte opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Zoeken op één of meer instanties van een nummeraanduiding</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Een enkele instantie van een nummeraanduiding opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Alle voorkomens van een instantie van een nummeraanduiding opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Zoeken op één of meer instanties van een woonplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Geografisch zoeken op één of meer instanties van een woonplaats</code></i> may be too long. Beware, this may cause issues in Code Generation.", "Endpoint name <i><code>Alle voorkomens van een instantie van een woonplaats opvragen</code></i> may be too long. Beware, this may cause issues in Code Generation."]
+	},
+	"createdAt": "2019-02-28T12:55:05+00:00",
+	"id": "064bcfb2-fe3d-4e6c-b16c-c9dfd54d51d1",
+	"organisation": "Kadaster",
+	"title": "BAG API",
+	"_links": {
+		"self": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/064bcfb2-fe3d-4e6c-b16c-c9dfd54d51d1"
+		},
+		"openapiYaml": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/064bcfb2-fe3d-4e6c-b16c-c9dfd54d51d1/openapi.yaml"
+		},
+		"openapiJson": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/064bcfb2-fe3d-4e6c-b16c-c9dfd54d51d1/openapi.json"
+		}
+	}
+}, {
+	"descriptionUrl": "https://opendata.ondernemersplein.nl/swagger/v1/swagger.json",
+	"descriptionFormat": "swagger_2",
+	"inputValidation": {
+		"notices": ["One or more elements in the API specification has a missing description field."],
+		"errors": [],
+		"warnings": ["The API version string, <em><code>v1</code></em>, does not have a valid format."]
+	},
+	"createdAt": "2019-02-28T12:55:24+00:00",
+	"id": "22306dbd-877d-4023-8e93-6b18589ff729",
+	"organisation": "KVK",
+	"title": "Ondernemersplein API",
+	"_links": {
+		"self": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/22306dbd-877d-4023-8e93-6b18589ff729"
+		},
+		"openapiYaml": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/22306dbd-877d-4023-8e93-6b18589ff729/openapi.yaml"
+		},
+		"openapiJson": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/22306dbd-877d-4023-8e93-6b18589ff729/openapi.json"
+		}
+	}
+}, {
+	"descriptionUrl": "https://mstpublicapi.docs.apiary.io/api-description-document",
+	"descriptionFormat": "api_blueprint",
+	"inputValidation": {
+		"notices": ["One or more elements in the API specification has a missing description field."],
+		"errors": ["Endpoint <i><code>Request Authorisations</code></i> has a parameter named <i><code>sort</code></i>, which is of an undefined type <i><code>string optional</code></i>.", "Endpoint <i><code>Request Authorisations</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>locale</code></i>.", "Endpoint <i><code>Request Authorisation</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>locale</code></i>.", "Endpoint <i><code>Request Authorisation Biocide</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>locale</code></i>.", "Endpoint <i><code>Request Authorisation PPP</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>locale</code></i>.", "Endpoint <i><code>Request Authorisation Adjuvant</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>locale</code></i>.", "Endpoint <i><code>Request Substances</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.", "Endpoint <i><code>Request Procutcodes voor Biocides</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.", "Endpoint <i><code>Request Targetorganisms voor Biocides</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.", "Endpoint <i><code>Request Targetorganisms voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.", "Endpoint <i><code>Request Targetorganisms lists voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.", "Endpoint <i><code>Request Targetcrops voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.", "Endpoint <i><code>Request Targetcrops lists voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.", "Endpoint <i><code>Request Targetlocations voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.", "Endpoint <i><code>Request Outcometypes voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>.", "Endpoint <i><code>Request Application Methods voor PPPs</code></i> has a parameter named <i><code>filter%5Blocale%5D</code></i>, which is of an undefined type <i><code>lang</code></i>."],
+		"warnings": ["Model <i><code>Document</code></i> has an an attribute called <i><code>document</code></i>. Some languages do not allow member names to be the same name as their enclosing type. The accessor or variable names maybe changed to address this problem", "Model <i><code>Substance</code></i> has an an attribute called <i><code>substance</code></i>. Some languages do not allow member names to be the same name as their enclosing type. The accessor or variable names maybe changed to address this problem", "Model <i><code>Uses</code></i> has an an attribute called <i><code>uses</code></i>. Some languages do not allow member names to be the same name as their enclosing type. The accessor or variable names maybe changed to address this problem", "Endpoint <i><code>Request masterdata last modified</code></i> contains invalid example value specifed for response of type <i><code>Dynamic</code></i>. Ignoring this example."]
+	},
+	"createdAt": "2019-02-28T12:53:36+00:00",
+	"id": "2f4aaf6c-9384-43f8-8960-30c5d758a51d",
+	"organisation": "CTGB",
+	"title": "MST Public API",
+	"_links": {
+		"self": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/2f4aaf6c-9384-43f8-8960-30c5d758a51d"
+		},
+		"openapiYaml": null,
+		"openapiJson": null
+	}
+}, {
+	"descriptionUrl": "https://raw.githubusercontent.com/open-education-api/specification/v3/spec.yaml",
+	"descriptionFormat": "openapi_3",
+	"inputValidation": {
+		"errors": ["Cannot fetch"]
+	},
+	"createdAt": "2019-02-28T12:54:51+00:00",
+	"id": "a842cc89-f1de-4475-a59c-857487ebb856",
+	"organisation": "Surfnet",
+	"title": "Open Onderwijs API",
+	"_links": {
+		"self": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/a842cc89-f1de-4475-a59c-857487ebb856"
+		},
+		"openapiYaml": null,
+		"openapiJson": null
+	}
+}, {
+	"descriptionUrl": "http://ref.tst.vng.cloud/zrc/api/v1/schema/openapi.json?v=2",
+	"descriptionFormat": "swagger_2",
+	"inputValidation": {
+		"notices": ["One or more elements in the API specification has a missing description field."],
+		"errors": [],
+		"warnings": []
+	},
+	"createdAt": "2019-03-29T10:53:33+00:00",
+	"id": "47d6e5db-2c66-4dbd-b385-14395f84d921",
+	"organisation": "VNG Realisatie",
+	"title": "Zaak Registratie Component (ZRC), oude swagger 2.0 versie",
+	"_links": {
+		"self": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/47d6e5db-2c66-4dbd-b385-14395f84d921"
+		},
+		"openapiYaml": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/47d6e5db-2c66-4dbd-b385-14395f84d921/openapi.yaml"
+		},
+		"openapiJson": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/47d6e5db-2c66-4dbd-b385-14395f84d921/openapi.json"
+		}
+	}
+}, {
+	"descriptionUrl": "https://brk.basisregistraties.overheid.nl/api/v1",
+	"descriptionFormat": "openapi_3",
+	"inputValidation": {
+		"notices": ["One or more elements in the API specification has a missing description field."],
+		"errors": ["Test input <i><code>Accept-Crs</code></i> does not correspond to a endpoint parameter in test case <i><code>Test Zoeken op percelen</code></i>.", "Test input <i><code>Accept-Crs</code></i> does not correspond to a endpoint parameter in test case <i><code>Test Zoeken op percelen1</code></i>."],
+		"warnings": ["One or more Endpoints were renamed to avoid code generation conflicts.", "One or more TestCases were renamed to avoid code generation conflicts."]
+	},
+	"createdAt": "2019-03-21T12:40:26+00:00",
+	"id": "390a7ce9-b577-4950-8288-cb4d97979f63",
+	"organisation": "Kadaster",
+	"title": "BRK API",
+	"_links": {
+		"self": {
+			"href": "https://fuzo422eub.execute-api.eu-west-1.amazonaws.com/latest/apis/390a7ce9-b577-4950-8288-cb4d97979f63"
+		},
+		"openapiYaml": null,
+		"openapiJson": null
+	}
+}]
